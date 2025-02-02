@@ -7626,8 +7626,8 @@ blockquote {
 
 .xb-header-menu-scroll .xb-close {
   position: absolute;
-  top: 0;
-  right: 0; }
+  top: 10px;
+  right: 10px; }
 
 .xb-header-menu-scroll .xb-menu-primary > li {
   padding-left: 0;
@@ -7749,7 +7749,7 @@ blockquote {
   margin-bottom: 40px; }
 
 .xb-logo-mobile img {
-  height: 32px; }
+  height: 60px; }
 
 .xb-header-mobile-search {
   margin-bottom: 20px; }
@@ -7914,7 +7914,7 @@ blockquote {
 
 .sidebar-content {
   max-width: 450px;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 142.2%;
   letter-spacing: -0.9px;
   font-family: var(--font-heading);
@@ -7934,7 +7934,7 @@ blockquote {
 .sidebar-info-list li {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 16px;
   color: var(--color-heading); }
   .sidebar-info-list li span {
     margin-right: 15px; }
@@ -7961,7 +7961,7 @@ blockquote {
     .xb-content-wrap .xb-item a {
       color: inherit; }
     .xb-content-wrap .xb-item .tel {
-      font-size: 24px;
+      font-size: 16px;
       line-height: 30px; }
 
 .xb-content-wrap .xb-item + .xb-item:before {
@@ -7993,14 +7993,14 @@ blockquote {
   display: block; }
 
 .xb-content-wrap .xb-item .tel {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 30px; }
   .xb-content-wrap .xb-item .tel:hover {
     color: var(--color-heading); }
 
 @media (max-width: 1199px) {
   .xb-content-wrap .xb-item .tel {
-    font-size: 20px; } }
+    font-size: 16px; } }
 .xb-content-wrap .xb-item {
   flex-wrap: nowrap; }
 
@@ -8131,7 +8131,12 @@ blockquote {
   @media (max-width: 767px) {
     .header-search-form-wrapper .search-submit {
       height: 35px;
-      font-size: 20px; } }
+      font-size: 20px; 
+    }
+    .offcanvas-sidebar{
+      padding: 50px 20px !important;
+    } 
+  }
 
 .header-search-form-wrapper .xb-search-close {
   background: #cccccc14;
@@ -8548,7 +8553,7 @@ blockquote {
   display: inline-block;
   margin-bottom: 10px; }
 .footer-cta .xb-item--number {
-  font-size: 45px;
+  font-size: 35px;
   margin-bottom: 12px; }
 .footer-cta .xb-item--mail a {
   color: var(--color-secondary);
@@ -8599,7 +8604,12 @@ blockquote {
       .footer-newsletter button {
         position: relative;
         width: 100%;
-        margin-top: 20px; } }
+        margin-top: 20px; 
+      }
+      .footer-social{
+        width: 100%;
+      }
+    }
   .footer-newsletter .icon::before {
     position: absolute;
     top: 22px;
